@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.nav{
+    background-color: rgb(233, 112, 233);
+    text-align: right;
+    position: relative;
+    
+}
+.nav li{
+    text-decoration: none;
+    padding: 15px;
+    font-size: 24px;
+    display: inline-block;
+}
+.logo{
+    position: absolute;
+    left: 0px;
+}
+
+
+.caja{
+    width: 100%;
+    display: flex;
+}
+
+.box{
+    display: inline-block;
+}
+#aside{
+    background-color: lightcoral;
+    width: 20%;
+    height: 700px;
+}
+#main{
+    background-color: rebeccapurple;
+    width: 80%;
+}
+.box-aside{
+    width: 85%;
+    height: 150px;
+    background-color: purple;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: 15px auto ;
+    align-items: center;
+}
+
+
+
+
+

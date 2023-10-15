@@ -1,0 +1,39 @@
+DISPLAY FLEX
+
+/*acomoda componentes, salta de linea */
+flex-wrap: wrap;
+
+acomoda al final los componentes
+/* justify-content: flex-end; */
+
+/*espacio entre componentes*/
+/* justify-content: space-around; */
+
+/*espacio IGUAL entre componentes*/
+justify-content: space-evenly;
+
+alinea componentes verticalmente
+align-items: start
+align-items: center
+align-items: end
+align-items: stretch(toma altura del container)
+align-items: baseline(toma altura de su contenido)
+
+A TODOS LOS COMPONENTES:
+.box{
+  flex-basis:10rem;
+  flex-grow:1;
+}
+flex-basis->tamaño inicial de un elemento flexible
+flex-grow->cantidad del espacio restante dentro del contenedor flexible, debería ocupar el item en cuestión
+
+
+
+colocar en orden componentes
+box1{
+  order:1;
+  flex-grow: 1;
+}
+
+order-> modificar orden de componente
+flex-grow->modificar tamaño de componente(llena la línea)

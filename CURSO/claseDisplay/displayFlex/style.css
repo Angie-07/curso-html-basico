@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  border: 1px solid black;
+  display: flex;
+  /*acomoda componentes */
+  flex-wrap: wrap;
+  /* justify-content: flex-end; */
+  /*espacio entre componentes*/
+  /* justify-content: space-around; */
+  /*espacio IGUAL entre componentes*/
+  justify-content: space-evenly;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  /* tamaño inicial de un elemento flexible */
+  flex-basis: 10rem;
+  /* cantidad del espacio restante dentro del contenedor flexible, debería ocupar el item en cuestión */
+  flex-grow: 1;
+}
+#uno {
+  background-color: red;
+}
+#dos {
+  background-color: brown;
+}
+#tres {
+  background-color: coral;
+}
+#cuatro {
+  background-color: lightgreen;
+}
+#cinco {
+  background-color: burlywood;
+}
+#seis {
+  background-color: blueviolet;
+}

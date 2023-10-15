@@ -1,0 +1,32 @@
+/*VARIABLES EN CSS*/
+:root{
+    --primary-color:rgb(200, 140, 255);
+    --secondary-color:rgb(98, 44, 150);
+    --font-main:1.5rem;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+header{
+    width: 100vw;
+    height: 10vh;
+    background-color:var(--primary-color); 
+}
+main{
+    width: 100vw;
+    height: 80vh;
+    background-color: rgb(236, 236, 190);
+    font-size: 1.5rem;
+}
+
+footer{
+    width: 100vw;
+    height: 10vh;
+    background-color:var(--secondary-color);
+} 

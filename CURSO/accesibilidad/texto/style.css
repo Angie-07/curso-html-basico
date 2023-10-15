@@ -1,0 +1,10 @@
+/*es buena practica usae medidas relativas y no absolutas*/
+hmtl{
+    font-size: 62.5%;
+}
+h1{
+    font-size:3rem;
+}
+p{
+    font-size: 1.5rem;
+}
